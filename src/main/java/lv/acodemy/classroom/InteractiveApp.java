@@ -15,6 +15,8 @@ public class InteractiveApp {
 
         System.out.println("Press 1 for registration or press 2 to stop chap");
         byte answer = chatBot.nextByte();
+
+
         if(answer == 1) {
             System.out.println("Please enter the date in following format: (dd-MM-yyyy)");
             String registrationDate = chatBot.next();
